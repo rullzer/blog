@@ -1,3 +1,58 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = "https://rullzer.com/"
+languageCode = "en-gb"
+title = "rullzers blog"
+
+copyright = "(c) 2015 Roeland Jago Douma -  This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/)"
+
+metaDataFormat = "yaml"
+
+# Theme to use (located in /themes/THEMENAME/)
+theme = "hyde-y"
+
+# Pagination
+paginate = 10
+paginatePath = "page"
+
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
+    code = "/:slug/"
+
+[taxonomies]
+    tag = "tags"
+    topic = "topics"
+
+[author]
+    name = "Roeland Jago Douma"
+#
+[params]
+    # You can use markdown here.
+    brand = "rullzer"
+
+    # Sidebar position
+    # false, true, "left", "right"
+    sidebar = "left"
+
+    # Text for the top menu link, which goes the root URL for the site.
+    # Default (if omitted) is "Home".
+    home = "home"
+
+    # Select a syntax highight.
+    # Check the static/css/highlight directory for options.
+    highlight = "default"
+
+    # Sidebar social links.
+    github = "rullzer" # Your Github profile ID
+    linkedin = "rullzer" # Your LinkedIn profile ID (from public URL)
+
+    # Sidebar RSS link: will only show up if there is a RSS feed
+    # associated with the current page
+    rss = true
+
+[blackfriday]
+    angledQuotes = true
+    fractions = false
+    hrefTargetBlank = false
+    latexDashes = true
+    plainIdAnchors = true
+    extensions = []
+    extensionmask = []

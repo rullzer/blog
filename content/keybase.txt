@@ -1,0 +1,74 @@
+==================================================================
+https://keybase.io/rullzer
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://rullzer.com
+  * I am rullzer (https://keybase.io/rullzer) on keybase.
+  * I have a public key with fingerprint DC28 6DFD 7D0E 228D D4D7  8FF0 F941 0788 7834 7C0C
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120c09a6a41a204ea9864f075b4112aca3b682ea866183742a055fb133d085228ee0a",
+            "fingerprint": "dc286dfd7d0e228dd4d78ff0f941078878347c0c",
+            "host": "keybase.io",
+            "key_id": "f941078878347c0c",
+            "kid": "0101fe340b6a8f633249ab8306537970b1e8fba1479d087b4ec8800d838ca279c5c40a",
+            "uid": "ee1c6505c113eb855580137485997419",
+            "username": "rullzer"
+        },
+        "service": {
+            "hostname": "rullzer.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1483001786,
+    "expire_in": 157680000,
+    "prev": "509975757eedb1f617acd4776e8b477d9314dd6746614b24b675296f553af4da",
+    "seqno": 16,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owFtUm1QVFUYBsQQSmjC1FmEphtJjgyde++5X4sOVBMfwlSiotKMcD/OXW4su8vu
+8rEgmMMaH6MBwwJKjBkxDBONQNRgDhB+pBkFGgZEIiY5TomADpGIVmeZ+NFMc368
+c97zPM/7vO95K1ev8FjlufCKT2ke3P+UZ/9vksceZfByASGZFQehLyAy0FJARgXZ
+7KkZmkLoCUBSQAaCyIqQFCkAkSjwLFQBx0iQJClRFmmJ5Skk8ixL8jQHKREwjCqR
+NK0AnqEoHiEgEuGEqpkMyGqxaiY7llVkimcVVeEUgDBGUaDC8aoKVAGSgON5jqch
+JwMZE9PNNjcDm5NEG4rQzDiHL6lL9v4Hv+wbkCqiIZBYkVdZmqagIEo8DViG5gQO
+SCTiVUkkISdgn5wEkczzACg8zcsixQkyI8Ml39lLcgiRMssARiZJGkk8wzA8IHG3
+PCMIHCQFN9CGrCYxE2G0NdtozEdWojCcwMkcTUbuubob+S8gQjZnYqbFarabZbMR
+P6Tb7Rab3k20OyxuZC6SUv/VSJU0k4KniBk5yGrTzCZCT2KkbNfcoiTE3QGS49lw
+AuVZNCtK1dwIhmNxYwC466AcLMkA7JnBZzdCikSqLMmJsgI5jkW8hIMi0CRUFJaD
++EuhREGJ5RhKYFWGoUUVKu6p2FCWyYzFcS27aMCiNs1gEu3ZVkQU+pV50d4enqs8
+gtc+733tpczHhf7EkasjFbPLq7fSy713Hn6+Ty9nMg0Bf0s7Zr/imrJ0l2uCxOeS
+jet+d/366fTDP+ZH9e133q5YvNASuHO3WltmaUxyne7qLbGfudeR89rGiKGbG3w7
+VccWz6i+9Nl1x6bnbx2OCk4b9aluSOgMzLOeiI5qLv9JulSV62wTiHOHSvRbVh8Z
+r7vxbNkkO7ehJKiy5nps6dSwrj/yQmroip4vi574JuGNiQrX7dq+na6jE0SY7/lO
+V8KDXr+R9oH6ko9CJqqDN65vzu5YGWLZe2pubt+PQrGu9uPB+OjxA9XK2riZX+5P
+tgQ2XPd2dia+N9h8V6cE7kiZZGI3fxB8tqmc2jbhW1vns90/11n3RZ6zJzt5rjfY
+8H4KsWdgTVbA/aHIwncDt13Jd9a+43/LQXz9ve/PobvO0mpj0PY3x7qeedjdGtvt
+me8fOmQ+WGxomt7XFDZkS2wd1344/6jqeLj+T5+8xNLWmDtssukcM/XdVJd/hJSW
+ge7OoIM3ii/BlIA1n+W0T5prXMdnamq8XLDkWPzJhfUfhs0XxSVFpsGSym/Th1+4
+12Lsbm9zeIWdKqgaeHUxwxGivRh2lexLHCH76wIaN+vjYk4nTQ93P3h8cu/F/p7h
+Tw50lBduPbSpYSy8Ne5zQyNXlHLRfx7WjMiVbX817o8+c9TlXLxd3zH65MLNyJnh
+mIOzE863Tuwai38Z6K5UXqvfCjcFPHo9T6dL+Qc=
+=FX3n
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/rullzer
+
+==================================================================
+
