@@ -35,13 +35,13 @@ three things:
 2. a hash of your *app password*
 3. your password symmetrically encrypted with the *app password*
 
-This means that if you authenticate with your <userName, appPassword> we do the
+This means that if you authenticate with your `(userName, appPassword)` we do the
 following:
 
-1. appPasswordHash = hash(appPassword)
-2. Lookup <userName, appPasswordHash> in the table
-3. password = decrypt_symmetric(encryptedPassword, appPassword)
-4. validate your password against your user backend
+1. `appPasswordHash = hash(appPassword)`
+2. Lookup `(userName, appPasswordHash)` in the table
+3. `password = decrypt_symmetric(encryptedPassword, appPassword)`
+4. validate your password against your user back-end
 
 ## Improvements
 
@@ -63,20 +63,20 @@ we store the following:
 4. your public key
 5. your password encrypted with your public key
 
-Now the flow when your login with <userName, appPassword> changes slightly.
+Now the flow when your login with `(userName, appPassword)` changes slightly.
 
-1. appPasswordHash = hash(appPassword)
-2. Lookup <userName, appPasswordHash> in the table
-3. privateKey = decrypt_symmetric(encryptedPrivateKey, appPassword)
-4. password = decrypt(EncryptedPassword, privateKey)
-5. validate your password against your user backend
+1. `appPasswordHash = hash(appPassword)`
+2. Lookup `(userName, appPasswordHash)` in the table
+3. `privateKey = decrypt_symmetric(encryptedPrivateKey, appPassword)`
+4. `password = decrypt(EncryptedPassword, privateKey)`
+5. validate your password against your user back-end
 
 Now to update your password we simply fetch all the *app passwords* for a user. And
 for each *app password* encrypt the new password with their public key.
 
 > Note: we don't actually get the *app passwords* form the database just the
-rows with hashed *app passwords*. However, for this step we don't rely on the
-actual *app password*.
+> rows with hashed *app passwords*. However, for this step we don't rely on the
+> actual *app password*.
 
 ### Migration
 
@@ -92,5 +92,5 @@ to re-authenticate your devices when you change your password makes the user
 experience a lot better.
 
 Of course there is room for improvement. Currently the *app passwords* are only
-updated when you use our default user backend. If you use for example LDAP then Nextcloud never gets told the new password. We are already working on improving
+updated when you use our default user back-end. If you use for example LDAP then Nextcloud never gets told the new password. We are already working on improving
 this in Nextcloud 15! So stay tuned!
