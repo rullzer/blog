@@ -48,6 +48,8 @@ paginatePath = "page"
     # associated with the current page
     rss = true
 
+    hideShareOptions = true
+
 [blackfriday]
     angledQuotes = true
     fractions = false
