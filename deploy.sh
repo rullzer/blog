@@ -22,3 +22,6 @@ git push origin HEAD:master
 
 # Come Back up to the Project Root
 cd ..
+
+git add public
+git commit -s -m "Deployed `data`"
