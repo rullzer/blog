@@ -16,7 +16,7 @@ Now because of the way a lot of our javascript code and a lot of 3rdparty javasc
 
 # Dropping unsafe-eval
 
-Of course I would be writing this if we did not change anything about this behavior. Which brings me to Nextcloud 15 where we will disallow **unsafe-eval** by default in our *CSP*. This means that your Nextcloud will, by default, not permit execution of **eval**. Which results in a safer Nextcloud.
+Of course I would not be writing this if we did not change anything about this behavior. Which brings me to Nextcloud 15 where we will disallow **unsafe-eval** by default in our *CSP*. This means that your Nextcloud will, by default, not permit execution of **eval**. Which results in a safer Nextcloud.
 
 ## Information for developers
 
