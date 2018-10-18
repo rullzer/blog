@@ -40,8 +40,9 @@ paginatePath = "page"
     highlight = "default"
 
     # Sidebar social links.
-    github = "rullzer" # Your Github profile ID
-    linkedin = "rullzer" # Your LinkedIn profile ID (from public URL)
+    #github = "rullzer" # Your Github profile ID
+    #linkedin = "rullzer" # Your LinkedIn profile ID (from public URL)
+    githubName = "rullzer"
 
     # Sidebar RSS link: will only show up if there is a RSS feed
     # associated with the current page
