@@ -25,3 +25,4 @@ cd ..
 
 git add public
 git commit -s -m "Deployed `data`"
+git push
