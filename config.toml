@@ -43,6 +43,7 @@ paginatePath = "page"
     #github = "rullzer" # Your Github profile ID
     #linkedin = "rullzer" # Your LinkedIn profile ID (from public URL)
     githubName = "rullzer"
+    twitter = "roelandjago"
 
     # Sidebar RSS link: will only show up if there is a RSS feed
     # associated with the current page
