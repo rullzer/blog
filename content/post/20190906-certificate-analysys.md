@@ -30,7 +30,7 @@ Besides the average the mean is also an interesting metric. The center value at 
 
 ## How many certificates are we talking about?
 
-This leads to the next question in the analysis. What percentage of certificates is valid for X days or less. Calculating this yields some interesting results. It turns out the number of certificates with really short lifetimes is small. But we see a huge jump at 90 days. 45.6% of all certificates has a lifetime of 90 days or less. Of course we know this lifetime all to well from Let’s Encrypt. And further analysis shows that this is indeed where the fast majority of those 90 days certificates comes from. That means that a lot of website are already using automation!
+This leads to the next question in the analysis. What percentage of certificates is valid for X days or less. Calculating this yields some interesting results. It turns out the number of certificates with really short lifetimes is small. But we see a huge jump at 90 days. 45.6% of all certificates has a lifetime of 90 days or less. Of course we know this lifetime all to well from Let’s Encrypt. And further analysis shows that this is indeed where the vast majority of those 90 days certificates comes from. That means that a lot of website are already using automation!
 
 The next significant jump comes at 190 days. 54.6% off all certificates have a lifetime of less than that.
 
@@ -40,7 +40,7 @@ Followed by jumps at 356 (71.4%) and 366 (76.0%). Then there is a short climb. B
 
 Now that we have all the data I'm going to make some assumptions to simplify things. I feel the 395 day lifetime of certificates is not far enough away from 365 days to warrant a special status. If you can renew your certificate every 395 days you can also do it once a year. My bet is the \~400 days are people that renewed their old certificate before the year was over and the provider of the certificate added the remaining days to their new certificate.
 
-With the assumption above in consideration we can see that already more than 80% would fit within what is proposed in SC22. As the fast majority of certificates is already renewed once a year.
+With the assumption above in consideration we can see that already more than 80% would fit within what is proposed in SC22. As the vast majority of certificates is already renewed once a year.
 
 It also tells us that about 10% of the certificates have to be renewed somewhere in the range of 1 to 2 years. Which mean for at least part of the that the change to switch to certificates with a lifetime of at most a year is rather minimal.
 
