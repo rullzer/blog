@@ -42,7 +42,7 @@ Now that we have all the data I'm going to make some assumptions to simplify thi
 
 With the assumption above in consideration we can see that already more than 80% would fit within what is proposed in SC22. As the vast majority of certificates is already renewed once a year.
 
-It also tells us that about 10% of the certificates have to be renewed somewhere in the range of 1 to 2 years. Which mean for at least part of the that the change to switch to certificates with a lifetime of at most a year is rather minimal.
+It also tells us that about 10% of the certificates have to be renewed somewhere in the range of 1 to 2 years. Which mean for at least part of those certificates the change to switch to certificates with a lifetime of at most a year is rather minimal.
 
 # Conclusions
 
