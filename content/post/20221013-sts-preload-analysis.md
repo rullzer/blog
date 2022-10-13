@@ -54,7 +54,7 @@ Of course there is also the other side of the spectrum. 1 site is being future p
 
 All in all this is not giving me a whole lot of confidence everybody knows what they are doing with this header.
 
-# Is tis a problem?
+# Is this a problem?
 
 One could argue this is not that much of a problem anymore. Chrome and Firefox are switching over to a HTTPS first approach. So preloading might become obsolete anyway. However we are not fully there yet. On top of that having a long list of sites your browser just knows never ever to connect to over an unsecure connection is still something I can only see as a good thing).
 
