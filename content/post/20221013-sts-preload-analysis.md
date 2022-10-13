@@ -1,12 +1,10 @@
 ---
 title: "Strict-transport-security analysis"
 date: "2022-10-13"
+unlisted: true
 tags:
   - STS
   - Security
-_build:
-  render: true
-  list: false
 ---
 
 I worked with the Strict Transport Security header when I was still at [Nextcloud](https://nextcloud.com). However my interest was reignited this week after
