@@ -2,7 +2,7 @@ baseURL = "https://rullzer.com/"
 languageCode = "en-gb"
 title = "rullzers blog"
 
-copyright = "(c) 2015 Roeland Jago Douma -  This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/)"
+copyright = "(c) 2022 Roeland Jago Douma -  This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/)"
 
 metaDataFormat = "yaml"
 
