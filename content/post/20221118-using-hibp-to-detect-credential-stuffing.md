@@ -27,6 +27,7 @@ the failed login requests only 0.01% (rounded up) had an account on the system. 
 to smell like credential stuffing.
 
 To quote [wikipedia](https://en.wikipedia.org/wiki/Credential_stuffing):
+
 > Credential stuffing is a type of cyberattack in which the attacker collects stolen account credentials, typically consisting of lists of usernames and/or email addresses and the corresponding passwords (often from a data breach), and then uses the credentials to gain unauthorized access to user accounts on other systems through large-scale automated login requests directed against a web application.
 
 Now we had the first part of the credentials (email addresses) but what about the second part. The passwords? Well for that we started adding
