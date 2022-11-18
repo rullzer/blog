@@ -28,19 +28,19 @@ to smell like credential stuffing.
 
 To quote [wikipedia](https://en.wikipedia.org/wiki/Credential_stuffing):
 
-> Credential stuffing is a type of cyberattack in which the attacker collects stolen account credentials, typically consisting of lists of usernames and/or email addresses and the corresponding passwords (often from a data breach), and then uses the credentials to gain unauthorized access to user accounts on other systems through large-scale automated login requests directed against a web application.
+> Credential stuffing is a type of cyberattack in which the attacker collects stolen account credentials, typically consisting of lists of usernames and/or email addresses and the corresponding passwords (often from a data breach), and then uses the credentials to gain unauthorised access to user accounts on other systems through large-scale automated login requests directed against a web application.
 
 Now we had the first part of the credentials (email addresses) but what about the second part. The passwords? Well for that we started adding
 a tiny bit more code but still just a few lines. For failed logins we also looked up if the password appeared in the [Pwned Password lis](https://haveibeenpwned.com/API/v3#PwnedPasswords)
 of [haveibeenpwned.com](https://haveibeenpwned.com/). This got deployed and we let it again ran for a little while. This showed that 99.98% of
 passwords used in failed login attempts were already known. Now this is not definitive proof. But if it looks, swims and quacks like a credential stuffing attack it probably is a credential stuffing attack. In any case it gave us enough confidence to conclude that somebody managed to
-get ahold of some databreach (most likely a breach already in haveibeenpwned) and was performing a credentials stuffing attack against the service.
+get ahold of some data breach (most likely a breach already in haveibeenpwned) and was performing a credentials stuffing attack against the service.
 
-After all this fun we had what we needed to hand the issue over. And they started to block IP addresses more agressively if they did a lot of
+After all this fun we had what we needed to hand the issue over. And they started to block IP addresses more aggressively if they did a lot of
 failed login requests with distinct usernames and >90% of the used passwords appearing in haveibeenpwned. This brought down the error rate
 quite fast. The attack went on for a while longer but eventually stopped.
 
-This experience got me thinking that there might be something here where we could utilize such information better. A system where such statistics
+This experience got me thinking that there might be something here where we could utilise such information better. A system where such statistics
 are collected and stored could make use of this. By lowering the rate limit for IPs that make request that look like credential stuffing attacks for
 example. Or making it visible for the administrators running the instance how many of the login requests fail or exhibit this behavior. It for
 sure is something I'm going to think more about more.
